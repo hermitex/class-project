@@ -101,6 +101,11 @@ li {
   margin-bottom: 2rem;
 }
 
+
+.content div:last-child {
+  margin-bottom: 0;
+}
+
 #content {
   width: 500px;
   font-size: 30px;
