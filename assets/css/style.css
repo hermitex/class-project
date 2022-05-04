@@ -98,12 +98,12 @@ li {
 .content h1,
 .content p,
 .content div {
-  margin-bottom: 2rem;
+  margin-bottom: 1.9rem;
 }
 
 
 .content div:last-child {
-  margin-bottom: 0;
+  margin-bottom: 1rem;
 }
 
 #content {
