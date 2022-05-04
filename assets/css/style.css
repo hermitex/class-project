@@ -20,7 +20,8 @@ nav.nav {
 }
 
 .logo img {
-  width: 9rem;
+  width: 15rem;
+  height: 5rem;
 }
 
 .logo:hover {
@@ -49,10 +50,10 @@ li {
 }
 
 .btn button {
-  background-color: #8f3b76;
-  padding: 1rem 2.5rem;
+  background-color: #e914a9;
+  padding: 1.7rem 3rem;
   border-radius: 8px;
-  font-size: 1.2rem;
+  font-size: 1.5rem;
   color: #fff;
   font-weight: 800;
   outline: none;
@@ -60,8 +61,11 @@ li {
 }
 
 .btn button:hover {
-  background-color: #8f3b76;
+  background-color: #f5487f;
   cursor: pointer;
+  box-shadow: rgba(0, 0, 0, 0.09) 0px 2px 1px, rgba(0, 0, 0, 0.09) 0px 4px 2px,
+    rgba(0, 0, 0, 0.09) 0px 8px 4px, rgba(0, 0, 0, 0.09) 0px 16px 8px,
+    rgba(0, 0, 0, 0.09) 0px 32px 16px;
 }
 
 .overlay-container {
