@@ -1,0 +1,103 @@
+* {
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
+}
+
+body {
+  background-image: url("../images/headphone-bg.jpg");
+  background-position: center;
+  background-size: cover;
+  background-repeat: no-repeat;
+  height: 100vh;
+  margin: 0 auto;
+  overflow: hidden;
+}
+
+nav.nav {
+  margin: auto;
+  padding-top: 1rem;
+}
+
+.logo img {
+  width: 9rem;
+}
+
+.logo:hover {
+  cursor: pointer;
+}
+
+.container {
+  height: 100%;
+}
+
+ul {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  align-items: start;
+
+  padding: 3rem auto;
+}
+
+li {
+  list-style: none;
+}
+
+.px {
+  width: 90vw;
+}
+
+.btn button {
+  background-color: #8f3b76;
+  padding: 1rem 2.5rem;
+  border-radius: 8px;
+  font-size: 1.2rem;
+  color: #fff;
+  font-weight: 800;
+  outline: none;
+  border: none;
+}
+
+.btn button:hover {
+  background-color: #8f3b76;
+  cursor: pointer;
+}
+
+.overlay-container {
+  color: #fff;
+  width: 100%;
+  height: 100vh;
+  line-height: 45px;
+  background-image: linear-gradient(to bottom right, transparent 50%, #553772 0),
+    linear-gradient(to top left, transparent 30%, #0a0a0a 0);
+  background-size: 100% 100%;
+  background-repeat: no-repeat;
+  background-position: left, right;
+  opacity: 75%;
+}
+
+.content {
+  display: flex;
+  flex-direction: column;
+  justify-content: end;
+  align-items: flex-end;
+  width: 100%;
+  height: 90vh;
+  padding: 3rem;
+}
+
+.content h1 {
+  font-size: 50px;
+}
+
+.content h1,
+.content p,
+.content div {
+  margin-bottom: 2rem;
+}
+
+#content {
+  width: 500px;
+  font-size: 30px;
+}
